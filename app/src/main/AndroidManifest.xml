@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.monsh.ceccalculo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Cuestionario.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Cuestionario.SegundaPregunta" />
+        <activity android:name=".Cuestionario.TerceraPregunta" />
+        <activity android:name=".Cuestionario.CuartaPregunta" />
+        <activity android:name=".Cuestionario.QuintaPregunta" />
+        <activity android:name=".Cuestionario.SeisPregunta" />
+        <activity android:name=".Cuestionario.SietePregunta" />
+        <activity android:name=".Cuestionario.OchoPregunta" />
+        <activity android:name=".Cuestionario.NuevePregunta" />
+        <activity android:name=".Cuestionario.DiezPregunta" />
+        <activity android:name=".Cuestionario.OncePregunta" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".Cuestionario.DocePregunta" />
+        <activity android:name=".Cuestionario.TrecePregunta" />
+        <activity android:name=".Cuestionario.CatorcePregunta" />
+        <activity android:name=".Cuestionario.QuincePregunta" />
+        <activity android:name=".Cuestionario.D16Pregunta" />
+        <activity android:name=".Cuestionario.D17Pregunta" />
+        <activity android:name=".Cuestionario.D18Pregunta" />
+        <activity android:name=".Cuestionario.D19Pregunta" />
+        <activity android:name=".Cuestionario.V20Pregunta" />
+        <activity android:name=".Cuestionario.V21Pregunta" />
+        <activity android:name=".Cuestionario.V22Pregunta" />
+        <activity android:name=".Cuestionario.V23Pregunta" />
+        <activity android:name=".Cuestionario.V24Pregunta" />
+        <activity android:name=".Cuestionario.V25Pregunta" />
+        <activity android:name=".Cuestionario.V26Pregunta" />
+        <activity android:name=".Cuestionario.V27Pregunta" />
+        <activity android:name=".Cuestionario.V28Pregunta" />
+        <activity android:name=".Cuestionario.V29Pregunta" />
+        <activity android:name=".Cuestionario.T30Pregunta" />
+        <activity android:name=".Resultado"></activity>
+    </application>
+
+</manifest>
